@@ -35,10 +35,10 @@ for tc in range(5):
     matrix.append(row)
 
 # Reduced linelength from 9 to 5 because of row.pop above
-newline = 5
+new_line_length = 5
 # iterate through the lines to find the "1"
 for i in range(5):
-    for j in range(newline):
+    for j in range(new_line_length = 5):
         if matrix[i][j] == "1":
             #Check how many fields the 1 had to move to the middle and print result
             for p in range(i+1):
